@@ -11,7 +11,7 @@ setup(
 
     name='buptgw',  
 
-    version='0.0.1',  
+    version='0.0.2',  
 
     description='login to gw.bupt.edu.cn to access the Internet',  
 

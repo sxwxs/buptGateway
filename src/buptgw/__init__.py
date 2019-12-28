@@ -41,7 +41,7 @@ def show_useage():
 def main():
     username = ""
     password = ""
-    config_path = os.path.join(os.environ['HOME'], '.butpgw')
+    config_path = os.path.join(os.path.expanduser('~'), '.butpgw')
     try:
         opts, _ = getopt.getopt(sys.argv[1:],"iocwu:p:",["config_path=","username=", "password="])
     except getopt.GetoptError as e:
