@@ -8,14 +8,17 @@
 
 `pip install buptgw`
 
-建议使用[清华大学 pip 源](https://mirrors.tuna.tsinghua.edu.cn/help/pypi/)，速度快，且支持 IPv6（校园网电脑无需登录网络即可通过 IPv6 访问）
-
-`pip install -i https://pypi.tuna.tsinghua.edu.cn/simple buptgw`
-
+---
+如果有问题可以使用 pypi 源，且支持 IPv6，校园网电脑无需登录网络即可访问
+    
+`pip install -i https://pypi.org/simple buptgw`
+    
 如果你没有 root 权限，可以添加 `--user` 参数即
-
+    
 `pip install buptgw --user` 或
-`pip install -i https://pypi.tuna.tsinghua.edu.cn/simple buptgw --user`
+`pip install -i https://pypi.org/simple buptgw --user`
+    
+在某些比较旧版本系统上 pip 指向 pip2，所以需要使用 pip3 代替命令中的 pip
 
 ## 使用
 
