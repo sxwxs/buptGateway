@@ -6,19 +6,21 @@
 
 ## 安装
 
+直接使用 pip 安装
+
 `pip install buptgw`
 
 ---
 如果有问题可以使用 pypi 源，且支持 IPv6，校园网电脑无需登录网络即可访问
-    
+
 `pip install -i https://pypi.org/simple buptgw`
-    
+
 如果你没有 root 权限，可以添加 `--user` 参数即
-    
+
 `pip install buptgw --user` 或
 `pip install -i https://pypi.org/simple buptgw --user`
-    
-在某些比较旧版本系统上 pip 指向 pip2，所以需要使用 pip3 代替命令中的 pip
+
+另外在某些比较旧版本系统上 pip 指向 pip2，所以需要使用 pip3 代替命令中的 pip
 
 ## 使用
 
